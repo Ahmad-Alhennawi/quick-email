@@ -1,0 +1,75 @@
+<mjml>
+    <mj-head>
+    <mj-attributes>
+        <mj-section background-color="white"/>
+        <mj-class name="second-color" background-color="#ddd"/>
+    </mj-attributes>
+        <mj-title>Quick Email</mj-title>
+        <mj-preview>
+            Thanks for collaberating with us
+        </mj-preview>
+        <mj-style>
+            p{
+                line-height: 20px;
+            }
+            span{
+                font-weight: bold;
+               
+            }
+           
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#eee">
+        <mj-section>
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <h1>Ahmad Alhennawi</h1>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-hero mode="fixef height"
+                height="469px"
+                background-width="600px"
+                background-height="469px"
+                background-url="./images/random.png"
+                background-color="#aaa"
+                >
+               <mj-button align="center" background-color="#00aaaa" color="black" font-weight="bold" padding-top="280px" border-radius="14px" font-size="10px">
+                    How Far We Can Go?!
+               </mj-button>
+        </mj-hero>
+        <mj-section>
+            <mj-column width="100%" mj-class="second-color" padding="20px 20%" >
+                <mj-text font-weight="bold" font-size="17px" >
+                    <span >MY Awesome Text</span>
+                </mj-text>
+                <mj-text>
+                    <p line-height="20px">today i am gonna talk about something very special so the thing i am gonna talk about is how i am gonna marry the most beautiful girl on this earth</p>
+                </mj-text>
+                <mj-button>
+                    Learn More
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column width="50%">
+                <mj-image src="./images/asta.png" alt="" />
+            </mj-column>
+            <mj-column width="50%" padding="0 10%">
+                <mj-text >
+                    <span>Find Amazing Places</span>
+                    
+                     <p>today i am gonna talk about something very special so the thing i am gonna talk about is how i am gonna marry the most beautiful girl on this earth</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column width="100%" mj-class="second-color">
+                <mj-text align="center" >
+                    <h5>copy write</h5>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+       
+    </mj-body>
+</mjml>
