@@ -2,12 +2,13 @@
     <mj-head>
     <mj-attributes>
         <mj-section background-color="white"/>
-        <mj-class name="second-color" background-color="#ddd"/>
+        <mj-class name="second-color" background-color="#eee"/>
     </mj-attributes>
         <mj-title>Quick Email</mj-title>
         <mj-preview>
             Thanks for collaberating with us
         </mj-preview>
+        <!-- CSS Styles -->
         <mj-style>
             p{
                 line-height: 20px;
@@ -19,26 +20,30 @@
            
         </mj-style>
     </mj-head>
-    <mj-body background-color="#eee">
-        <mj-section>
+    <mj-body background-color="#aaa">
+    <!-- The Header Section -->
+        <mj-section padding="0">
             <mj-column width="100%" mj-class="second-color">
                 <mj-text align="center">
                     <h1>Ahmad Alhennawi</h1>
                 </mj-text>
             </mj-column>
-        </mj-section>
-        <mj-hero mode="fixef height"
+        </mj-section >
+     <!-- Hero Section -->
+        <mj-hero mode="fixed height"
                 height="469px"
                 background-width="600px"
                 background-height="469px"
                 background-url="./images/random.png"
                 background-color="#aaa"
+                
                 >
-               <mj-button align="center" background-color="#00aaaa" color="black" font-weight="bold" padding-top="280px" border-radius="14px" font-size="10px">
+               <mj-button align="center" background-color="#6fe" color="#111" font-weight="bold" padding-top="280px" border-radius="14px" font-size="14px" letter-spacing="1.06px">
                     How Far We Can Go?!
                </mj-button>
         </mj-hero>
-        <mj-section>
+    <!-- More Information Section -->
+        <mj-section padding-top="0">
             <mj-column width="100%" mj-class="second-color" padding="20px 20%" >
                 <mj-text font-weight="bold" font-size="17px" >
                     <span >MY Awesome Text</span>
@@ -51,22 +56,41 @@
                 </mj-button>
             </mj-column>
         </mj-section>
+    <!-- Details Section -->
         <mj-section>
+        <!-- first card -->
             <mj-column width="50%">
-                <mj-image src="./images/asta.png" alt="" />
+                <mj-image src="./images/asta.png" alt=""  width="170px"/>
             </mj-column>
-            <mj-column width="50%" padding="0 10%">
+            <mj-column width="50%" padding="20px">
                 <mj-text >
                     <span>Find Amazing Places</span>
-                    
                      <p>today i am gonna talk about something very special so the thing i am gonna talk about is how i am gonna marry the most beautiful girl on this earth</p>
                 </mj-text>
             </mj-column>
+
+            <mj-column width="100%">
+                <mj-divider border-width="2px" border-color="#aaa" width="80%" />
+            </mj-column>
+            <!-- second card  -->
+            <mj-column width="50%" padding="30px 20px 20px 50px ">
+                <mj-text >
+                    <span>Find Amazing Places</span>
+                     <p>today i am gonna talk about something very special so the thing i am gonna talk about is how i am gonna marry the most beautiful girl on this earth</p>
+                </mj-text>
+            </mj-column>
+             <mj-column width="50%">
+                <mj-image src="./images/asta-flipped.png" alt=""  width="170px"/>
+            </mj-column>
         </mj-section>
-        <mj-section>
-            <mj-column width="100%" mj-class="second-color">
-                <mj-text align="center" >
-                    <h5>copy write</h5>
+     <!-- footer section  -->
+        <mj-section mj-class="second-color">
+            <mj-column width="100%">
+                <mj-text font-size="12px" color="#888">
+                    © 2024 Alhennawi. All rights reserved.
+                </mj-text>
+                <mj-text font-size="12px" color="#888">
+                    <a href="unsubscribe-link">Unsubscribe</a>
                 </mj-text>
             </mj-column>
         </mj-section>
